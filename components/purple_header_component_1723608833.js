@@ -7,7 +7,7 @@
 Vue.component("purple_header_component_1723608833", {
     template: `
     <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-red-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-blue-900">
             <div class="flex items-center justify-between h-16 md:h-20">
     
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
@@ -41,7 +41,7 @@ Vue.component("purple_header_component_1723608833", {
                     </button>
     
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
-                        <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 bg-red-500" :class="signUpButtonGradient">
+                        <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 bg-blue-900" :class="signUpButtonGradient">
                             <li><a id="mobile-Home-link" class="flex font-medium text-sm py-1.5" href="Home.html" :class="[textStylePrimary,hoverTextStylePrimary]">Home</a></li>
                             <li><a id="mobile-Products-link" class="flex font-medium text-sm py-1.5" href="Products.html" :class="[textStylePrimary,hoverTextStylePrimary]">Products</a></li>
                             <li><a id="mobile-Deals-link" class="flex font-medium text-sm py-1.5" href="Deals.html" :class="[textStylePrimary,hoverTextStylePrimary]">Deals</a></li>
