@@ -10,5 +10,9 @@
     {
         "level": 1,
         "task_description": "Change all of the backgrounds of all the components to red"
+    },
+    {
+        "level": 1,
+        "task_description": "Change all of the backgrounds of all the components to red"
     }
 ]
