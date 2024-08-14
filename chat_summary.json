@@ -18,5 +18,11 @@
         "content": "Got it, working on changing background to bright yellow.",
         "timestamp": "14082024041446",
         "message_id": "guest14082024041444"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you want the bright yellow background applied across all pages of the app or just specific sections/pages?\", \"option1\": \"Apply across all pages\", \"option2\": \"Apply only to specific sections/pages\"}, {\"question 2\": \"Should the text and other elements' colors be adjusted to ensure they are still readable and visually appealing with the new bright yellow background?\", \"option1\": \"Yes, adjust the colors of text and elements for readability and aesthetic harmony\", \"option2\": \"No, keep the current colors of text and elements\"}], \"input_token_count\": 257, \"output_token_count\": 124, \"time_taken\": \"0:00:11.721628\"}",
+        "timestamp": "14082024041458",
+        "message_id": "guest14082024041444"
     }
 ]
